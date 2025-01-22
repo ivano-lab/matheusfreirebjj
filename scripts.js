@@ -1,5 +1,5 @@
-// script.js
-document.getElementById('burger').addEventListener('click', function() {
-  const navLinks = document.getElementById('nav-links');
-  navLinks.classList.toggle('active'); // Adiciona ou remove a classe 'active'
-});
+const hamburger = document.querySelector(".burger");
+const nav = document.querySelector(".navbar");
+
+hamburger.addEventListener("click", () => nav.classList.toggle("active"));
+
